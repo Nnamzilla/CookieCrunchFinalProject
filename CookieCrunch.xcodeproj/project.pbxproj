@@ -29,6 +29,7 @@
 		17A7E5AF1FB53C850044C48F /* Chomp.wav in Resources */ = {isa = PBXBuildFile; fileRef = 17A7E5A91FB53C850044C48F /* Chomp.wav */; };
 		17A7E5B01FB53C850044C48F /* Error.wav in Resources */ = {isa = PBXBuildFile; fileRef = 17A7E5AA1FB53C850044C48F /* Error.wav */; };
 		18FC13452071A18C00EFA68F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FC13442071A18B00EFA68F /* LaunchScreen.storyboard */; };
+		53BF3801228362A5001754DE /* Background@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53BF3800228362A5001754DE /* Background@3x.png */; };
 		863AE57A20069F16000D35DE /* Cookie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863AE57920069F16000D35DE /* Cookie.swift */; };
 		863AE57C2006A101000D35DE /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863AE57B2006A101000D35DE /* Level.swift */; };
 		8F4CF800201F2E8900B9F5E5 /* Swap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4CF7FF201F2E8900B9F5E5 /* Swap.swift */; };
@@ -60,6 +61,7 @@
 		17A7E5A91FB53C850044C48F /* Chomp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Chomp.wav; sourceTree = "<group>"; };
 		17A7E5AA1FB53C850044C48F /* Error.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Error.wav; sourceTree = "<group>"; };
 		18FC13442071A18B00EFA68F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		53BF3800228362A5001754DE /* Background@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background@3x.png"; sourceTree = "<group>"; };
 		863AE57920069F16000D35DE /* Cookie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cookie.swift; sourceTree = "<group>"; };
 		863AE57B2006A101000D35DE /* Level.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
 		8F4CF7FF201F2E8900B9F5E5 /* Swap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swap.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				17A7E57B1FB513CC0044C48F /* Main.storyboard */,
 				18FC13442071A18B00EFA68F /* LaunchScreen.storyboard */,
 				17A7E5831FB513CC0044C48F /* Info.plist */,
+				53BF37FF22836290001754DE /* Images */,
 				17A7E5A41FB53C850044C48F /* Sounds */,
 				17A7E5911FB525F30044C48F /* Levels */,
 				17A7E57E1FB513CC0044C48F /* Assets.xcassets */,
@@ -143,6 +146,14 @@
 				17A7E5AA1FB53C850044C48F /* Error.wav */,
 			);
 			path = Sounds;
+			sourceTree = "<group>";
+		};
+		53BF37FF22836290001754DE /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				53BF3800228362A5001754DE /* Background@3x.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,6 +225,7 @@
 				17A7E5AF1FB53C850044C48F /* Chomp.wav in Resources */,
 				17A7E59A1FB525F30044C48F /* Level_0.json in Resources */,
 				18FC13452071A18C00EFA68F /* LaunchScreen.storyboard in Resources */,
+				53BF3801228362A5001754DE /* Background@3x.png in Resources */,
 				17A7E5991FB525F30044C48F /* Level_4.json in Resources */,
 				17A7E5B01FB53C850044C48F /* Error.wav in Resources */,
 				17A7E5AD1FB53C850044C48F /* Mining by Moonlight.mp3 in Resources */,
