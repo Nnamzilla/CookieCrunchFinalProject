@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		170D54281FB6919C00BB205A /* Grid.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 170D54271FB6919C00BB205A /* Grid.atlas */; };
 		1769DFF91FE3818B00F99A23 /* LevelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1769DFF81FE3818B00F99A23 /* LevelData.swift */; };
 		1769DFFB1FE383BA00F99A23 /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1769DFFA1FE383BA00F99A23 /* Array2D.swift */; };
 		17A7E5721FB513CC0044C48F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A7E5711FB513CC0044C48F /* AppDelegate.swift */; };
@@ -32,6 +31,7 @@
 		5382D25D2284AF3800DBA657 /* Air Horn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5382D25C2284AF3800DBA657 /* Air Horn.wav */; };
 		5382D25F2284AFEA00DBA657 /* Buzzer.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5382D25E2284AFEA00DBA657 /* Buzzer.wav */; };
 		5382D2612284B37100DBA657 /* Overworld BGM.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5382D2602284B37100DBA657 /* Overworld BGM.mp3 */; };
+		5382D2632284B67700DBA657 /* Grid.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 5382D2622284B67700DBA657 /* Grid.atlas */; };
 		53BF3801228362A5001754DE /* Background@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53BF3800228362A5001754DE /* Background@3x.png */; };
 		863AE57A20069F16000D35DE /* Cookie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863AE57920069F16000D35DE /* Cookie.swift */; };
 		863AE57C2006A101000D35DE /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863AE57B2006A101000D35DE /* Level.swift */; };
@@ -40,7 +40,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		170D54271FB6919C00BB205A /* Grid.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Grid.atlas; sourceTree = "<group>"; };
 		1769DFF81FE3818B00F99A23 /* LevelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelData.swift; sourceTree = "<group>"; };
 		1769DFFA1FE383BA00F99A23 /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
 		17A7E56E1FB513CC0044C48F /* CookieCrunch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CookieCrunch.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,6 +66,7 @@
 		5382D25C2284AF3800DBA657 /* Air Horn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Air Horn.wav"; sourceTree = "<group>"; };
 		5382D25E2284AFEA00DBA657 /* Buzzer.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Buzzer.wav; sourceTree = "<group>"; };
 		5382D2602284B37100DBA657 /* Overworld BGM.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Overworld BGM.mp3"; sourceTree = "<group>"; };
+		5382D2622284B67700DBA657 /* Grid.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = Grid.atlas; path = "../../../Downloads/CookieCrunchFinalProject-master/CookieCrunch/Grid.atlas"; sourceTree = "<group>"; };
 		53BF3800228362A5001754DE /* Background@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background@3x.png"; sourceTree = "<group>"; };
 		863AE57920069F16000D35DE /* Cookie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cookie.swift; sourceTree = "<group>"; };
 		863AE57B2006A101000D35DE /* Level.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
@@ -123,7 +123,7 @@
 				17A7E5A41FB53C850044C48F /* Sounds */,
 				17A7E5911FB525F30044C48F /* Levels */,
 				17A7E57E1FB513CC0044C48F /* Assets.xcassets */,
-				170D54271FB6919C00BB205A /* Grid.atlas */,
+				5382D2622284B67700DBA657 /* Grid.atlas */,
 				17A7E5891FB516370044C48F /* Sprites.atlas */,
 			);
 			path = CookieCrunch;
@@ -227,7 +227,7 @@
 				17A7E5AB1FB53C850044C48F /* Scrape.wav in Resources */,
 				17A7E5AE1FB53C850044C48F /* Drip.wav in Resources */,
 				17A7E58A1FB516380044C48F /* Sprites.atlas in Resources */,
-				170D54281FB6919C00BB205A /* Grid.atlas in Resources */,
+				5382D2632284B67700DBA657 /* Grid.atlas in Resources */,
 				17A7E59B1FB525F30044C48F /* Level_1.json in Resources */,
 				17A7E5971FB525F30044C48F /* Level_2.json in Resources */,
 				17A7E57D1FB513CC0044C48F /* Main.storyboard in Resources */,
