@@ -36,8 +36,8 @@ import GameplayKit
 class GameScene: SKScene {
   // Sound FX
   let swapSound = SKAction.playSoundFileNamed("Chomp.wav", waitForCompletion: false)
-  let invalidSwapSound = SKAction.playSoundFileNamed("Error.wav", waitForCompletion: false)
-  let matchSound = SKAction.playSoundFileNamed("Ka-Ching.wav", waitForCompletion: false)
+  let invalidSwapSound = SKAction.playSoundFileNamed("Buzzer.wav", waitForCompletion: false)
+  let matchSound = SKAction.playSoundFileNamed("Air Horn.wav", waitForCompletion: false)
   let fallingCookieSound = SKAction.playSoundFileNamed("Scrape.wav", waitForCompletion: false)
   let addCookieSound = SKAction.playSoundFileNamed("Drip.wav", waitForCompletion: false)
   var level: Level!

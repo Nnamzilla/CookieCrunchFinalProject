@@ -29,6 +29,9 @@
 		17A7E5AF1FB53C850044C48F /* Chomp.wav in Resources */ = {isa = PBXBuildFile; fileRef = 17A7E5A91FB53C850044C48F /* Chomp.wav */; };
 		17A7E5B01FB53C850044C48F /* Error.wav in Resources */ = {isa = PBXBuildFile; fileRef = 17A7E5AA1FB53C850044C48F /* Error.wav */; };
 		18FC13452071A18C00EFA68F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FC13442071A18B00EFA68F /* LaunchScreen.storyboard */; };
+		5382D25D2284AF3800DBA657 /* Air Horn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5382D25C2284AF3800DBA657 /* Air Horn.wav */; };
+		5382D25F2284AFEA00DBA657 /* Buzzer.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5382D25E2284AFEA00DBA657 /* Buzzer.wav */; };
+		5382D2612284B37100DBA657 /* Overworld BGM.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5382D2602284B37100DBA657 /* Overworld BGM.mp3 */; };
 		53BF3801228362A5001754DE /* Background@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53BF3800228362A5001754DE /* Background@3x.png */; };
 		863AE57A20069F16000D35DE /* Cookie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863AE57920069F16000D35DE /* Cookie.swift */; };
 		863AE57C2006A101000D35DE /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863AE57B2006A101000D35DE /* Level.swift */; };
@@ -61,6 +64,9 @@
 		17A7E5A91FB53C850044C48F /* Chomp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Chomp.wav; sourceTree = "<group>"; };
 		17A7E5AA1FB53C850044C48F /* Error.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Error.wav; sourceTree = "<group>"; };
 		18FC13442071A18B00EFA68F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5382D25C2284AF3800DBA657 /* Air Horn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Air Horn.wav"; sourceTree = "<group>"; };
+		5382D25E2284AFEA00DBA657 /* Buzzer.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Buzzer.wav; sourceTree = "<group>"; };
+		5382D2602284B37100DBA657 /* Overworld BGM.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Overworld BGM.mp3"; sourceTree = "<group>"; };
 		53BF3800228362A5001754DE /* Background@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background@3x.png"; sourceTree = "<group>"; };
 		863AE57920069F16000D35DE /* Cookie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cookie.swift; sourceTree = "<group>"; };
 		863AE57B2006A101000D35DE /* Level.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
@@ -138,8 +144,11 @@
 		17A7E5A41FB53C850044C48F /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				5382D25C2284AF3800DBA657 /* Air Horn.wav */,
+				5382D25E2284AFEA00DBA657 /* Buzzer.wav */,
 				17A7E5A51FB53C850044C48F /* Scrape.wav */,
 				17A7E5A61FB53C850044C48F /* Ka-Ching.wav */,
+				5382D2602284B37100DBA657 /* Overworld BGM.mp3 */,
 				17A7E5A71FB53C850044C48F /* Mining by Moonlight.mp3 */,
 				17A7E5A81FB53C850044C48F /* Drip.wav */,
 				17A7E5A91FB53C850044C48F /* Chomp.wav */,
@@ -224,12 +233,15 @@
 				17A7E57D1FB513CC0044C48F /* Main.storyboard in Resources */,
 				17A7E5AF1FB53C850044C48F /* Chomp.wav in Resources */,
 				17A7E59A1FB525F30044C48F /* Level_0.json in Resources */,
+				5382D2612284B37100DBA657 /* Overworld BGM.mp3 in Resources */,
 				18FC13452071A18C00EFA68F /* LaunchScreen.storyboard in Resources */,
 				53BF3801228362A5001754DE /* Background@3x.png in Resources */,
+				5382D25F2284AFEA00DBA657 /* Buzzer.wav in Resources */,
 				17A7E5991FB525F30044C48F /* Level_4.json in Resources */,
 				17A7E5B01FB53C850044C48F /* Error.wav in Resources */,
 				17A7E5AD1FB53C850044C48F /* Mining by Moonlight.mp3 in Resources */,
 				17A7E57F1FB513CC0044C48F /* Assets.xcassets in Resources */,
+				5382D25D2284AF3800DBA657 /* Air Horn.wav in Resources */,
 				17A7E5981FB525F30044C48F /* Level_3.json in Resources */,
 				17A7E5AC1FB53C850044C48F /* Ka-Ching.wav in Resources */,
 			);
