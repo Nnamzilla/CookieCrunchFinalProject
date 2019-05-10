@@ -31,8 +31,8 @@
 		5382D25D2284AF3800DBA657 /* Air Horn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5382D25C2284AF3800DBA657 /* Air Horn.wav */; };
 		5382D25F2284AFEA00DBA657 /* Buzzer.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5382D25E2284AFEA00DBA657 /* Buzzer.wav */; };
 		5382D2612284B37100DBA657 /* Overworld BGM.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5382D2602284B37100DBA657 /* Overworld BGM.mp3 */; };
-		5382D2632284B67700DBA657 /* Grid.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 5382D2622284B67700DBA657 /* Grid.atlas */; };
 		53BF3801228362A5001754DE /* Background@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53BF3800228362A5001754DE /* Background@3x.png */; };
+		53DF3B9D2285AD5D00853E54 /* Grid.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 53DF3B9C2285AD5D00853E54 /* Grid.atlas */; };
 		863AE57A20069F16000D35DE /* Cookie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863AE57920069F16000D35DE /* Cookie.swift */; };
 		863AE57C2006A101000D35DE /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863AE57B2006A101000D35DE /* Level.swift */; };
 		8F4CF800201F2E8900B9F5E5 /* Swap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4CF7FF201F2E8900B9F5E5 /* Swap.swift */; };
@@ -66,8 +66,8 @@
 		5382D25C2284AF3800DBA657 /* Air Horn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Air Horn.wav"; sourceTree = "<group>"; };
 		5382D25E2284AFEA00DBA657 /* Buzzer.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Buzzer.wav; sourceTree = "<group>"; };
 		5382D2602284B37100DBA657 /* Overworld BGM.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Overworld BGM.mp3"; sourceTree = "<group>"; };
-		5382D2622284B67700DBA657 /* Grid.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = Grid.atlas; path = "../../../Downloads/CookieCrunchFinalProject-master/CookieCrunch/Grid.atlas"; sourceTree = "<group>"; };
 		53BF3800228362A5001754DE /* Background@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background@3x.png"; sourceTree = "<group>"; };
+		53DF3B9C2285AD5D00853E54 /* Grid.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = Grid.atlas; path = ../../CookieCrunchFramework/CookieCrunch/Grid.atlas; sourceTree = "<group>"; };
 		863AE57920069F16000D35DE /* Cookie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cookie.swift; sourceTree = "<group>"; };
 		863AE57B2006A101000D35DE /* Level.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
 		8F4CF7FF201F2E8900B9F5E5 /* Swap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swap.swift; sourceTree = "<group>"; };
@@ -123,7 +123,7 @@
 				17A7E5A41FB53C850044C48F /* Sounds */,
 				17A7E5911FB525F30044C48F /* Levels */,
 				17A7E57E1FB513CC0044C48F /* Assets.xcassets */,
-				5382D2622284B67700DBA657 /* Grid.atlas */,
+				53DF3B9C2285AD5D00853E54 /* Grid.atlas */,
 				17A7E5891FB516370044C48F /* Sprites.atlas */,
 			);
 			path = CookieCrunch;
@@ -227,7 +227,7 @@
 				17A7E5AB1FB53C850044C48F /* Scrape.wav in Resources */,
 				17A7E5AE1FB53C850044C48F /* Drip.wav in Resources */,
 				17A7E58A1FB516380044C48F /* Sprites.atlas in Resources */,
-				5382D2632284B67700DBA657 /* Grid.atlas in Resources */,
+				53DF3B9D2285AD5D00853E54 /* Grid.atlas in Resources */,
 				17A7E59B1FB525F30044C48F /* Level_1.json in Resources */,
 				17A7E5971FB525F30044C48F /* Level_2.json in Resources */,
 				17A7E57D1FB513CC0044C48F /* Main.storyboard in Resources */,
